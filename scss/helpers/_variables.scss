@@ -1,0 +1,27 @@
+//$copy-paste-icon: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuMS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIyIEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGQ9Ik01MDIuNiA3MC42MyA0NDEuMzUgOS4zOEM0MzUuNCAzLjM3MSA0MjcuMiAwIDQxOC43IDBIMjU1LjFjLTM1LjM1IDAtNjQgMjguNjYtNjQgNjRsLjAyIDI1NmMuODggMzUuNCAyOS41OCA2NCA2NC44OCA2NGgxOTJjMzUuMiAwIDY0LTI4LjggNjQtNjRWOTMuMjVjMC04LjQ4LTMuNC0xNi42Mi05LjQtMjIuNjJ6TTQ2NCAzMjBjMCA4LjgzNi03LjE2NCAxNi0xNiAxNkgyNTUuMWMtOC44MzggMC0xNi03LjE2NC0xNi0xNlY2NC4xM2MwLTguODM2IDcuMTY0LTE2IDE2LTE2aDEyOEwzODQgOTZjMCAxNy42NyAxNC4zMyAzMiAzMiAzMmg0Ny4xdjE5MnpNMjcyIDQ0OGMwIDguODM2LTcuMTY0IDE2LTE2IDE2SDYzLjFjLTguODM4IDAtMTYtNy4xNjQtMTYtMTZsLjg4LTI1NS45YzAtOC44MzYgNy4xNjQtMTYgMTYtMTZIMTYwVjEyOEg2My45OWMtMzUuMzUgMC02NCAyOC42NS02NCA2NEwwIDQ0OGMuMDAyIDM1LjMgMjguNjYgNjQgNjQgNjRoMTkyYzM1LjIgMCA2NC0yOC44IDY0LTY0di0zMmgtNDcuMWwtLjkgMzJ6Ii8+PC9zdmc+');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// variables for the breakpoints.
+$bp1: 48rem;
+$bp2: 60rem;
+$bp3: 90rem;
+$bp4: 120rem;
+
+// Colours
+$color-primary: #ee964b;
+$color-secondary: #0d3b66;
+$color-tertiary: #DA2A07;
+$bg-color: #faf0ca;
+$grey: #ccc;
+$white: #fff;
+
+// Font stuff
+$font-family-sans-serif: 'Roboto', arial;
+$font-size-base: 1.6;
+$font-size-base-desktop: 1.8;
+$font-size-large: 2.8;
+$font-size-small: 1.4;
+$font-size-h1: 2;
+$font-size-h2: 1.8;
+$font-size-h3: 1.6;

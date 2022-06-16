@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Copy to Clipboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <article class="page-wrapper">
+      <section class="offer-block" aria-labelledby="copy-code" role="main">
+        <h1 id="copy-code">Copy code to clipboard</h1>
+        <p>By clicking on the box containing the code, the code is highlighted and copied, and a message advising the user the code has been copied, is shown.</p>
+        <label>Example:
+          <textarea readonly type="text" value="Hello World" id="textarea-copy">By clicking on the box containing the code, the code is highlighted and copied, and a message advising the user the code has been copied, is shown.By clicking on the box containing the code, the code is highlighted and copied, and a message advising the user the code has been copied, is shown.</textarea>
+        </label>
+        <span class="copied" id="copied">Code copied</span>
+        <p class="btn-wrapper">
+          <button onclick="copyPaste()" class="btn">
+            <i class="material-icons mdc-button__icon" aria-hidden="true">content_copy</i>
+            <span class="mdc-button__label">Copy ID</span>
+          </button>
+        </p>           
+      </section>
+    </article>
+	  <script src="scripts/replace.js"></script>
+  </body>
+</html>

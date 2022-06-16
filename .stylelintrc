@@ -1,0 +1,52 @@
+{
+    "extends": "stylelint-config-standard-scss",
+    "plugins": ["stylelint-order", "stylelint-scss"],
+ 
+    "rules": {
+        "block-no-empty": true,
+        "block-opening-brace-newline-after": "always",
+        "color-no-invalid-hex": true,
+        "indentation": 4,
+        "max-empty-lines": 1,
+        "max-nesting-depth": 8,
+        "at-rule-name-case": "lower",
+        "color-function-notation": "legacy",
+        "color-hex-length": "short",
+        "color-hex-case": "lower",
+        "font-family-no-missing-generic-family-keyword": true,
+        "value-list-comma-space-after": "always",
+        "length-zero-no-unit": true,
+        "number-leading-zero": "never",
+        "number-no-trailing-zeros": true,
+        "declaration-colon-space-after": "always",
+        "declaration-colon-space-before": "never",
+        "selector-list-comma-newline-after": "always",
+        "selector-class-pattern": null,
+        "selector-id-pattern": ["^[a-z]"],
+        "no-descending-specificity": null,
+        "string-quotes": "single",
+        "unit-allowed-list": ["em", "rem", "%", "s", "px", "ch", "deg", "vh", "ms", "fr"],
+        "scss/at-import-no-partial-leading-underscore": true,
+        "order/properties-alphabetical-order": true,
+        "color-no-hex": [true, {
+            "ignore": ["Sass/defaults/color_map.scss"]
+        }],
+ 
+        "comment-empty-line-before": ["always", {
+            "ignore": ["stylelint-commands", "after-comment"]
+        }],
+ 
+        "at-rule-empty-line-before": ["always", {
+            "ignoreAtRules": ["import", "each", "else", "extend", "include", "supports", "media"]
+        }],
+ 
+        "rule-empty-line-before": ["always", {
+            "except": ["first-nested"],
+            "ignore": ["after-comment"]
+        }],
+   
+        "declaration-block-no-duplicate-properties": [true, {
+            "ignore": ["consecutive-duplicates-with-different-values"]
+        }]
+    }
+}
